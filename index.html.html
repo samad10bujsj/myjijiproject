@@ -1,0 +1,236 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Jiji</title>
+
+    <link rel="stylesheet" href="e-commerce.css">
+</head>
+
+<body>
+
+    
+
+    <header class="header">
+
+        <h1 class="logo">Jiji</h1>
+
+        <div class="search-box">
+
+            <input
+                type="text"
+                id="searchInput"
+                placeholder="what are you looking for?..."
+            >
+
+            <button id="searchBtn" aria-label="Search">
+                🔍
+            </button>
+
+        </div>
+
+        <button class="sell-btn">SELL</button>
+
+    </header>
+
+
+
+
+    <div class="page-layout">
+
+
+        
+
+        <aside class="categories">
+
+            <button
+                class="category-toggle"
+                id="categoryToggle"
+                aria-expanded="true"
+            >
+
+                <span>☰ All Categories</span>
+
+                <span id="mainArrow">⌄</span>
+
+            </button>
+
+
+            
+
+            <div id="categoryList">
+
+                
+
+            </div>
+
+        </aside>
+
+
+        
+
+        <main class="main-content">
+
+
+            
+
+            <section class="hero">
+
+                <div class="hero-text">
+
+                    <h2>Buy and Sell<br>Anything on Jiji</h2>
+
+                    <p>Find great deals at affordable prices.</p>
+
+                </div>
+
+                <div class="hero-image">
+                    🛍️
+                </div>
+
+            </section>
+
+
+            
+
+            <div class="section-heading">
+
+                <h2 id="sectionTitle">Trending Ads</h2>
+
+                <button id="showAllBtn">
+                    See All Ads 
+                </button>
+
+            </div>
+
+
+            
+
+            <p id="resultMessage"></p>
+
+
+            
+
+            <section class="products" id="products">
+
+                <p>Loading products...</p>
+
+            </section>
+
+
+        </main>
+
+    </div>
+
+
+    
+
+    <div class="modal" id="productModal">
+
+        <div class="modal-content">
+
+            <button class="close-btn" id="closeModal">
+                ✕
+            </button>
+
+            <div id="productDetails"></div>
+
+        </div>
+
+    </div>
+
+
+    
+
+    <footer class="footer">
+
+
+        <div class="footer-top">
+
+
+            <div class="footer-brand">
+
+                <h1>jiji</h1>
+
+                <h3>Buy. Sell. Smile.</h3>
+
+                <p>Your marketplace for great deals.</p>
+
+            </div>
+
+
+            <div class="footer-column">
+
+                <h3>About Us</h3>
+
+                <p>About Jiji</p>
+                <p>Terms and Conditions</p>
+                <p>Privacy Policy</p>
+                <p>Cookie Policy</p>
+
+            </div>
+
+
+            <div class="footer-column">
+
+                <h3>Support</h3>
+
+                <p>Contact Us</p>
+                <p>Safety Tips</p>
+                <p>Help Centre</p>
+                <p>FAQs</p>
+
+            </div>
+
+
+            <div class="footer-column">
+
+                <h3>Our Resources</h3>
+
+                <p>Our Blog</p>
+                <p>Our Instagram</p>
+                <p>Our Facebook</p>
+                <p>Our YouTube</p>
+
+            </div>
+
+
+            <div class="footer-column">
+
+                <h3>Download Our App</h3>
+
+                <button class="app-button">
+                     Google Play
+                </button>
+
+                <button class="app-button"><a href="./https://play.google.com/store/games"></a>
+                     App Store
+                </button>
+
+            </div>
+
+
+        </div>
+
+
+        <div class="footer-bottom">
+
+            <p>© 2026 Jiji. All rights reserved.</p>
+
+        </div>
+
+
+    </footer>
+
+
+    
+
+    <script src="e-commerce.js"></script>
+
+</body>
+
+</html>
+
